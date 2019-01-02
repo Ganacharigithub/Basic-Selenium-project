@@ -23,7 +23,7 @@ public class Basicprog {
 		driver.findElement(By.name("q")).sendKeys("Books");
 		driver.findElement(By.name("btnK")).click();
 		driver.manage().window().maximize();
-		driver.close();
+		driver.quit();
 
 
 }
